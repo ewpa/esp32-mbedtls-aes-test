@@ -13,11 +13,6 @@
 #include "esp_system.h"
 #include "esp_spi_flash.h"
 
-#include "crypto/includes.h"
-
-#include "crypto/common.h"
-#include "crypto/aes.h"
-#include "crypto/aes_wrap.h"
 #include "mbedtls/aes.h"
 
 // only CBC requires that input length shall be multiple of 16
